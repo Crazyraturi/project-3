@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}  
+
+html,body{
+
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+
+}
+
+#nav{
+    width: 100%;
+    display: flex;
+    padding: 40px 60px;
+    justify-content: space-between;
+}
+
+#nav-left{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-right{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+#nav h3{
+    font-size: 24px;
+
+}
+#nav h4{
+    font-size: 24px;
+    
+}
+#nav-mid{
+    display: flex;
+    align-items: center;
+}
+
+#nav-left-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+   
+}
+
+#content{
+    margin-top: 60px;
+    padding: 40px 65px;
+
+}
+
+#content h3{
+    font-size: 40px;
+    
+}
+
+#content h1{
+    font-size: 150px;
+    line-height: 140px;
+    margin-top: 40px;
+    letter-spacing: -5px;
+    word-spacing: 9px;
+}
+
+#case{
+    padding: 30px 65px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#case h4{
+    font-size: 26px;
+
+}
+#case h5{
+    font-size: 26px;
+
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#case #right #line{
+    height: 2px;
+    width: 160px;
+    background-color: black;
+}
+
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+    gap: 80px;
+}
+.elem{
+    width: 50%;
+    
+}
+
+.elem-image{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(196, 201, 228);
+    border-radius: 30px;
+    background-size: cover;
+    
+
+}
+
+#img1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/59/Sketch_Logo.svg);
+     background-size: cover;
+
+}
+
+#img2{
+    background-image: url(https://blog.frame.io/wp-content/uploads/2018/11/pasted-image-0-1.png);
+
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.bottom i {
+    padding: 15px 30px;
+    border-radius: 30%;
+    font-size: 20px;
+    border: 2px solid black;
+     
+}
+.bottom i:hover{
+    color: white;
+    background-color: black;
+}
+
+.bottom h2{
+    font-size: 40px;
+    font-weight: 500px;
+    margin-bottom:10px ;
+}
+
